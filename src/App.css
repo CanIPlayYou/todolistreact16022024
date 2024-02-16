@@ -1,0 +1,110 @@
+::-webkit-scrollbar {
+  width: 10px;
+  margin-bottom: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  margin-bottom: 47px;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.NavBar{
+  background-color: #595959;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: relative;
+}
+
+.Main{
+  background-color: #a5a5a5;
+  height: 622px;
+  width: 100%;
+  margin-top: -18px;
+  padding-top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.List{
+  background-color: #7f7f7f;
+  height: 500px;
+  width: 1200px;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+
+.ItemsInList{
+  height: 87.8%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Items{
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  
+}
+.item{
+  background-color: #a5a5a5;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskName{
+  padding-inline: 20px;
+}
+
+.formm{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.remove-button{
+  background-color: #595959;
+  padding-inline: 6px;
+  border-radius: 5px;
+  border: 3px solid #474646;
+  color: white;
+  cursor: pointer;
+}
+
+.Foter{
+  background-color: #595959;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
